@@ -1,0 +1,15 @@
+# OpenAI互換チャットAPIの接続先。末尾が /chat/completions でなければ自動で付きます。
+# OpenAI:     https://api.openai.com/v1
+# Groq:       https://api.groq.com/openai/v1
+# OpenRouter: https://openrouter.ai/api/v1
+# Ollama:     http://localhost:11434/v1
+# LM Studio:  http://localhost:1234/v1
+URL=https://api.openai.com/v1
+
+# そのサービスのAPIキー。
+API=
+
+# 接続先が受け付けるモデル名。
+# OpenAI の例: gpt-4o-mini
+# Ollama の例: ローカルに取得済みのモデル名
+MODEL=gpt-4o-mini
